@@ -1,0 +1,169 @@
+
+
+.container{
+width: 1000px; height: 100px; margin: 0px auto; position: relative;
+background-color: blue;
+}
+
+
+.contenedor{
+width: 800px; min-height: 800px; background-color:grey; float: left;
+}
+
+p{
+	color: white;
+}
+.foto{
+width: 200;
+height: 300;
+background-color: blue;
+float: left;
+margin-top: 20;
+margin-left: 20;
+background-image: url(../img/foto2.jpg);
+}
+
+.cabecera{
+width: 840;
+height: 300;
+background-color: yellow;
+float: left;
+margin: 20;
+background-image: url(../img/cabecera.png);
+}
+.menu{
+width: 1060;
+height: 150;
+background-color: red;
+float: left;
+margin-left: 20;
+
+}
+.menu h1{
+	color: white;
+	margin-left: 30;
+}
+
+.izquierda{
+
+width: 520;
+height: 620;
+background-color: green;
+float: left;
+margin-left: 20;
+margin-top: 20;
+
+}
+
+.derecha{
+
+width: 520;
+height: 620;
+background-color: red;
+float: right;
+margin-right: 20;
+margin-top: 20;
+background-image: url(../img/izquierda.jpg);
+background-size: cover;
+
+}
+
+
+.galeria{
+width: 1060;
+height: 620;
+background-color: orange;
+float: left;
+margin-left: 20;
+margin-top: 20;
+position: relative;
+}
+
+.call {
+width: 1060;
+height: 430;
+background-color: green;
+float: left;
+margin-left: 20;
+margin-top: 20;
+
+}
+.call:hover {
+width: 1060;
+height: 430;
+background-color: red;
+float: left;
+margin-left: 20;
+margin-top: 20;
+transform: scale(1.3);
+transition: 1s;
+}
+
+
+.formulario{
+	width: 580;
+height: 400;
+color: white;
+margin-top: 10;
+margin-left: 10;
+float: left;
+}
+.imglado{
+float: right;
+margin: 30;
+position: relative;
+top: 30;
+
+
+
+}
+.pie{
+
+width: 1060;
+height: 100;
+background-color: orange;
+float: left;
+margin-left: 20;
+margin-top: 20;
+
+}
+
+.pie a{
+	color: white;
+
+}
+
+
+.izquierda p{
+	color: white;
+	text-align: left;
+	margin-left: 15;
+	margin-right: 15;
+}
+
+.izquierda h2{
+	text-align: center;
+	color: white;
+}
+
+/*aqui empieza la galeria */
+
+.lista{
+list-style-type:none;
+}
+
+.perrog{
+position: absolute;
+display: none;
+left: 300;
+top: 60;
+
+}
+
+.perrop:hover ~ .perrog{
+display: block;
+transition: 3s;
+
+}
+
+/*aqui termina*\
